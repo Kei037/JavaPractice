@@ -10,6 +10,7 @@ public class Ex_05 {
 		int pencilsPerStudent = pencils / students;
 		System.out.println(pencilsPerStudent);
 		
+		// 남은 연필 수
 		int pencilsLeft = pencils % students;
 		System.out.println(pencilsLeft);
 
