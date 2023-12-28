@@ -9,21 +9,11 @@ public class Ex_01 {
 		double var3 = 2.5;
 		String var4 = "3.9";
 		
-		int t = (int)var1;
+		double varCh = Double.parseDouble(var4);
+		int a = (int)varCh;
+		System.out.println(a);
 		
-		double test = (double)var2;
-		int testA = (int)test;
-		
-		double test2 = (double)var3;
-		int testB = (int)test2;
-		
-		double test3 = Double.parseDouble(var4);
-		int testC = (int)test3;
-		
-		double a =  t + testA + testB + testC;
-		int D = (int)a;
-		
-		int result = D;
+		int result = (int)var1 + (int)(var2 + var3) + (int)Double.parseDouble(var4);
 		System.out.println(result);
 
 	}
