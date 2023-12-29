@@ -9,9 +9,11 @@ public class Ex_01 {
 		double var3 = 2.5;
 		String var4 = "3.9";
 		
-		double varCh = Double.parseDouble(var4);
-		int a = (int)varCh;
+		int a = (int)var3 + (int)var2;
+		int b = (int)(var2 + var3);
+		
 		System.out.println(a);
+		System.out.println(b);
 		
 		int result = (int)var1 + (int)(var2 + var3) + (int)Double.parseDouble(var4);
 		System.out.println(result);
