@@ -1,7 +1,5 @@
 package ch_02;
 
-import javax.xml.datatype.DatatypeConstants;
-
 public class VarPractice {
 	
 	/* + 연산에서의 문자열 자동 변환

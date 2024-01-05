@@ -1,7 +1,5 @@
 package ch_02;
 
-import javax.xml.datatype.DatatypeConstants;
-
 public class VarPractice2 {
 	
 	public static void main(String[] args) {
