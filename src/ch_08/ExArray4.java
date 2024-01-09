@@ -16,14 +16,15 @@ public class ExArray4 {
 				if (numbers[j] == temp) {
 					System.out.println(temp + "은 중복된 값입니다.");
 					isResult = false;
+					break;
 				}
 			}
 			
-			if (!isResult) {
-				continue;
+			if (isResult) {
+				numbers[i] = temp;
+			}else {
+				i--;
 			}
-			
-			numbers[i] = temp;
 		}
 		System.out.println(Arrays.toString(numbers));
 	}
